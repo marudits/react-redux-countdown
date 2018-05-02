@@ -1,0 +1,34 @@
+.time-input {
+    &__item {
+        display: block;
+        margin-bottom: 2rem;
+
+        input {
+            font-size: 2em;
+            font-weight: bold;
+        }
+    }
+
+    &__validation {
+        display: block;
+        color: red;
+        font-size: 0.85em;
+        font-style: italic;
+    }
+}
+
+.time-countdown {
+    margin-bottom: 2rem;
+    
+    h1 {
+        font-size: 5em;
+        margin-bottom: 1rem;
+    }
+}
+
+.btn-action {
+    button {
+        width: 100px;
+        margin: 0 10px;
+    }
+}
